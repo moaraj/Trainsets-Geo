@@ -11,11 +11,11 @@ Cont Keywords = c(
 "inphase")
 
 Pert Key Words = c(
-"[0-9]nM",
-"[0-9]uM",
-"[0-9]mM",
-"[0-9]ug",
-"[0-9]ng",
+"[0-9]\s*nM",
+"[0-9]\s*uM",
+"[0-9]\s*mM",
+"[0-9]\s*ug",
+"[0-9]\s*ng",
 "treated",
 "after",
 "non\s*-*_*responder",
@@ -24,14 +24,14 @@ Pert Key Words = c(
 "agent")
 
 Time_Keywords = c(
-"[0-9]h",
-"[0-9]day",
-"[0-9]min",
-"[0-9]minute",
-"[0-9]sec",
-"[0-9]second",
-"[0-9]month",
-"T[0-9]")
+"[0-9]\s*h",
+"[0-9]\s*day",
+"[0-9]\s*min",
+"[0-9]\s*minute",
+"[0-9]\s*sec",
+"[0-9]\s*second",
+"[0-9]\s*month",
+"T\s*[0-9]")
 
 is_Time_Study = c(
 "time",
