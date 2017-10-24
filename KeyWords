@@ -1,0 +1,59 @@
+Cont Keywords = c(
+DMSO,
+untreated,
+before,
+prior,
+control,
+medium,
+responder,
+Vehicle,
+sensitive,
+inphase)
+
+Pert Key Words = c(
+[:number:]nM,
+[:number:]uM,
+[:number:]ug,
+[:number:]ng,
+treated,
+after,
+nonresponder,
+nonsensitive,
+Out[alpha]phase)
+
+Time_Keywords = c(
+[:number:]h,
+[:number:]day,
+[:number:]min,
+[:number:]minute,
+[:number:]sec,
+[:number:]second,
+[:number:]month,
+T[:number:])
+
+is_Time_Study = c(
+time,
+time-points)
+
+Exp_Group = c(
+male,
+female,
+M,
+F)
+
+Sample_Numbers = c(
+rep[:number:],
+biological replicate[:number:],
+biological rep[:number:],
+Donor [:number:],
+patient no. [:number:],
+patient [:number:] )
+
+
+Study_Skip = c(
+siCONTROL,
+loss of [:alphanum:] function,
+LOF,
+siRNA, 
+CRISPR,
+cas9)
